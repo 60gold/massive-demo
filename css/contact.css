@@ -1,0 +1,18 @@
+.contact #header {
+  height: 100px;
+  background: #fff;
+}
+.contact #header a:hover {
+  color: var(--branding-color);
+}
+.contact #footer > .container {
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .contact #header {
+    height: 50px;
+  }
+  .contact .contact-form h4 {
+    letter-spacing: 2px;
+  }
+}

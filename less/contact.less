@@ -1,0 +1,25 @@
+@import "basic.less";
+
+.contact {
+	#header {
+		height: 100px;
+		background: #fff;
+	}
+	
+	#header a:hover {
+    color: var(--branding-color);
+  }
+
+	#footer > .container {
+		padding: 0;
+	}
+
+	@media screen and (max-width: 768px) {
+    #header {
+			height: 50px;
+		}
+		.contact-form h4 {
+			letter-spacing: 2px;
+		}
+  }
+}

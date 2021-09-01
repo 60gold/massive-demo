@@ -1,0 +1,185 @@
+.service #header a:hover {
+  color: var(--branding-color);
+}
+.service .banner-demo {
+  background-image: url(../images/banner/demo.jpg);
+}
+.service #content .featured-item.border-box {
+  margin-bottom: -1px;
+  margin-left: -1px;
+  padding: 50px;
+  border: 1px solid #f2f2f2;
+  transition: all 0.3s ease;
+}
+.service #content .featured-item .icon {
+  padding: 0 0 30px 0;
+}
+.service #content .featured-item .icon i {
+  font-size: 36px;
+}
+.service #content .featured-item h4 {
+  margin-bottom: 20px;
+}
+.service #content .featured-item .desc {
+  color: var(--gray-text);
+}
+.service #content .featured-item.border-box:hover {
+  border: 1px solid transparent;
+  background: #222;
+}
+.service #content .featured-item.border-box:hover .icon i {
+  color: var(--branding-color);
+}
+.service #content .featured-item.border-box:hover h4 {
+  color: #fff;
+}
+.service #content .feature .heading-title h3 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.service #content .feature .heading-title h3:after {
+  background: transparent;
+}
+.service #content .feature .heading-title span {
+  letter-spacing: 2px;
+  color: var(--gray-text);
+  font-size: 14px;
+}
+.service #content .feature .featured-item.feature-outline {
+  position: relative;
+  padding: 0 0 0 80px;
+}
+.service #content .feature .featured-item.feature-outline h4 {
+  padding-top: 5px;
+}
+.service #content .feature .featured-item.feature-outline .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.service #content .pricing .heading-title {
+  margin-bottom: 100px;
+}
+.service #content .pricing h3 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.service #content .pricing h3:after {
+  background: transparent;
+}
+.service #content .pricing .price-table-row .col-md-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.service #content .pricing .price-col {
+  padding: 50px;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+}
+.service #content .pricing .price-col h1 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.service #content .pricing .price-col ul {
+  display: block;
+  margin-bottom: 40px;
+  padding: 0;
+  letter-spacing: normal;
+}
+.service #content .pricing .price-col ul li {
+  margin-bottom: 15px;
+  list-style: none;
+  color: #222;
+}
+.service #content .pricing .price-col .p-value {
+  margin-bottom: 40px;
+  padding: 25px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.service #content .pricing .price-col .dollar {
+  font-size: 42px;
+  font-weight: normal;
+}
+.service #content .pricing .price-col .dollar span {
+  margin-left: -10px;
+  font-size: 16px;
+}
+.service #content .pricing .price-col .duration {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.service #content .pricing .price-col .p-btn {
+  display: inherit;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  color: #222;
+  border: 1px solid #e8e8e8;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.service #content .pricing .price-col .p-btn:hover {
+  color: #fff;
+  background-color: #222;
+}
+.service #content .pricing .price-col.feature {
+  border: 1px solid #222;
+  background: #222;
+  color: #fff;
+}
+.service #content .pricing .price-col.feature h1 {
+  color: var(--branding-color);
+}
+.service #content .pricing .price-col.feature li {
+  color: #7d7d7d;
+}
+.service #content .pricing .price-col.feature .p-btn {
+  background-color: #fff;
+}
+.service #content .pricing .price-col.feature .p-btn:hover {
+  border-color: var(--branding-color);
+  color: #222;
+  background-color: var(--branding-color);
+}
+@media screen and (max-width: 768px) {
+  .service .banner-demo {
+    background-position: center;
+  }
+  .service .page-title {
+    margin-top: 47px;
+    text-align: center;
+  }
+  .service .page-title .breadcrumb {
+    display: block;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 10px 0 0;
+  }
+  .service .services .full-col {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .service .heading-title {
+    margin-bottom: 50px !important;
+  }
+  .service .featured-item.feature-outline {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .service .feature .full-width img {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .service .special-services {
+    padding-bottom: 350px;
+  }
+}

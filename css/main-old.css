@@ -1,0 +1,1117 @@
+.about #content {
+  /*因為權重不夠高，改h3 title時會改不過，所以另外再加上#content增加權重*/
+}
+.about #content .feature {
+  padding: 100px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  /*bgbmm混和背景圖和背景半透明顏色*/
+  background-image: url(http://massivemarkup.lab.themebucket.net//assets/img/parallax/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*bgzcover讓圖片寬度完全覆蓋容器、bfaf讓圖片跟著網頁滾動*/
+}
+.about #content .team-member {
+  padding: 100px 0;
+}
+.about #content .member .name {
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.about #content .member .title {
+  color: #a5a5a5;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.about #content .cover h3 {
+  width: 250px;
+  margin: 40px auto;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+.about #content .cover p {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.about #content .cover .social-media {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+.about #content .cover .social-media ul {
+  display: inline-block;
+  /*ul設置inline-block，social-media才有辦法置中對齊*/
+}
+.about #content .cover .social-media li {
+  float: left;
+  margin: 0 10px;
+}
+.about #content .cover .social-media a {
+  color: black;
+  text-decoration: none;
+}
+.about #content .gray-bg {
+  padding: 100px 0;
+  text-align: center;
+}
+.about #content .gray-bg .count {
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+.about #content .gray-bg h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #323232;
+  letter-spacing: 1px;
+}
+.about #content .clients {
+  padding: 100px 0;
+}
+.about .summary i {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 36px;
+  /*i要改成display: block，margin跟padding才能推動*/
+}
+.service #header a:hover {
+  color: var(--branding-color);
+}
+.service .banner-demo {
+  background-image: url(../images/banner/demo.jpg);
+}
+.service #content .featured-item.border-box {
+  margin-bottom: -1px;
+  margin-left: -1px;
+  padding: 50px;
+  border: 1px solid #f2f2f2;
+  transition: all 0.3s ease;
+}
+.service #content .featured-item .icon {
+  padding: 0 0 30px 0;
+}
+.service #content .featured-item .icon i {
+  font-size: 36px;
+}
+.service #content .featured-item h4 {
+  margin-bottom: 20px;
+}
+.service #content .featured-item .desc {
+  color: var(--gray-text);
+}
+.service #content .featured-item.border-box:hover {
+  border: 1px solid transparent;
+  background: #222;
+}
+.service #content .featured-item.border-box:hover .icon i {
+  color: var(--branding-color);
+}
+.service #content .featured-item.border-box:hover h4 {
+  color: #fff;
+}
+.service #content .feature .heading-title h3 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.service #content .feature .heading-title h3:after {
+  background: transparent;
+}
+.service #content .feature .heading-title span {
+  letter-spacing: 2px;
+  color: var(--gray-text);
+  font-size: 14px;
+}
+.service #content .feature .featured-item.feature-outline {
+  position: relative;
+  padding: 0 0 0 80px;
+}
+.service #content .feature .featured-item.feature-outline h4 {
+  padding-top: 5px;
+}
+.service #content .feature .featured-item.feature-outline .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.service #content .pricing .heading-title {
+  margin-bottom: 100px;
+}
+.service #content .pricing h3 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.service #content .pricing h3:after {
+  background: transparent;
+}
+.service #content .pricing .price-table-row .col-md-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.service #content .pricing .price-col {
+  padding: 50px;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+}
+.service #content .pricing .price-col h1 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.service #content .pricing .price-col ul {
+  display: block;
+  margin-bottom: 40px;
+  padding: 0;
+  letter-spacing: normal;
+}
+.service #content .pricing .price-col ul li {
+  margin-bottom: 15px;
+  list-style: none;
+  color: #222;
+}
+.service #content .pricing .price-col .p-value {
+  margin-bottom: 40px;
+  padding: 25px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.service #content .pricing .price-col .dollar {
+  font-size: 42px;
+  font-weight: normal;
+}
+.service #content .pricing .price-col .dollar span {
+  margin-left: -10px;
+  font-size: 16px;
+}
+.service #content .pricing .price-col .duration {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.service #content .pricing .price-col .p-btn {
+  display: inherit;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  color: #222;
+  border: 1px solid #e8e8e8;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.service #content .pricing .price-col .p-btn:hover {
+  color: #fff;
+  background-color: #222;
+}
+.service #content .pricing .price-col.feature {
+  border: 1px solid #222;
+  background: #222;
+  color: #fff;
+}
+.service #content .pricing .price-col.feature h1 {
+  color: var(--branding-color);
+}
+.service #content .pricing .price-col.feature li {
+  color: #7d7d7d;
+}
+.service #content .pricing .price-col.feature .p-btn {
+  background-color: #fff;
+}
+.service #content .pricing .price-col.feature .p-btn:hover {
+  border-color: var(--branding-color);
+  color: #222;
+  background-color: var(--branding-color);
+}
+@media screen and (max-width: 768px) {
+  .service .banner-demo {
+    background-position: center;
+  }
+  .service .page-title {
+    margin-top: 47px;
+    text-align: center;
+  }
+  .service .page-title .breadcrumb {
+    display: block;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 10px 0 0;
+  }
+  .service .services .full-col {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .service .heading-title {
+    margin-bottom: 50px !important;
+  }
+  .service .featured-item.feature-outline {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .service .feature .full-width img {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .service .special-services {
+    padding-bottom: 350px;
+  }
+}
+.contact #header {
+  height: 100px;
+  background: #fff;
+}
+.contact #header a:hover {
+  color: var(--branding-color);
+}
+.contact #footer > .container {
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .contact #header {
+    height: 50px;
+  }
+  .contact .contact-form h4 {
+    letter-spacing: 2px;
+  }
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  /*渲染render使網頁印刷時字體更加圓滑*/
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+  /*常用初始設定，使ul沒有自己的留白、li的格式清掉*/
+}
+img {
+  display: block;
+  /*常用初始設定，使圖片下方不要留白*/
+}
+p {
+  color: #7e7e7e;
+  line-height: 30px;
+  /*常用初始設定，字體顏色及行高*/
+}
+/*custom class全域使用*/
+.container {
+  display: block;
+  width: 1170px;
+  margin: 0 auto;
+  /*置中設定*/
+  /*可用&來表示與container同一行的class*/
+}
+.container.full-width {
+  width: 100%;
+  padding: 0 30px;
+}
+.button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: none;
+  background: #fff;
+  color: #222;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  /*調整成dib才能做成有寬高的按鈕，並設定留白作為按鈕大小*/
+  letter-spacing: 1px;
+}
+.button.black {
+  background: #222;
+  color: white;
+  transition: 0.2s linear all;
+}
+.button.black:hover {
+  background: #d6b161;
+}
+.button.full-width {
+  width: 100%;
+}
+.button.bordered {
+  border: 1px solid black;
+  /*設定黑色、粗1px的外框*/
+}
+.button.bordered.light-border {
+  border-color: #e8e8e8;
+}
+.button.rounded {
+  border-radius: 4px;
+}
+.clearfix:after,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  /*常用清除文繞圖設定整理方法*/
+}
+.row {
+  margin: 0 -15px;
+  /*將col下的左右留白各15px扣掉，網頁圖片才能對齊*/
+}
+.row.bordered > div {
+  border: 1px solid #f2f2f2;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  /*在row底下的div加上外框線，並減掉重疊部分的px*/
+}
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-12 {
+  float: left;
+  padding: 0 30px;
+  /*靠左對齊，左右留白30px*/
+}
+.col-2 {
+  width: 16.66666667%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333333%;
+}
+.col-5 {
+  width: 41.66666667%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33333333%;
+}
+.col-8 {
+  width: 66.66666667%;
+}
+.col-12 {
+  width: 100%;
+}
+/*header*/
+#logo {
+  float: left;
+}
+#nav {
+  float: right;
+  text-transform: uppercase;
+  line-height: 100px;
+  /*設定文字大寫、行距100px，跟圖片同高，記得要打px，不然行距預設是倍數*/
+}
+#nav li {
+  float: left;
+}
+#nav a {
+  padding: 0 12px;
+  color: #333;
+  text-decoration: none;
+  font-size: 13px;
+  /*在a設定padding使用者可點擊範圍才能擴大，並設定tdn及color清除連結底線及預設顏色*/
+}
+#nav .active a {
+  color: #d6b161;
+  /*當前頁面文字顯示金色*/
+}
+.boundary:after {
+  content: "|";
+  padding: 0 12px;
+  /*在該class後面加上一條分隔線，並與nav文字設定相同寬度*/
+}
+/*客製化class*/
+.title-block {
+  margin-bottom: 30px;
+}
+.progress-bar {
+  margin-bottom: 50px;
+  width: 100%;
+  background-color: #eae8e8;
+}
+.progress-bar > div {
+  display: inline-block;
+  /*讓文字在同一行*/
+}
+.progress-bar .progress {
+  padding-left: 10px;
+  background-color: #222;
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  /*設定整條顏色及字體*/
+}
+.progress-bar .pin {
+  position: relative;
+  top: -30px;
+  left: -35px;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 4px 9px;
+  border-radius: 15px;
+  /*設定位置及文字大小，並改成圓角*/
+}
+.progress-bar .pin:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: rgba(0, 0, 0, 0.6);
+  /*製作一個朝下三角形*/
+  border-width: 3px;
+  margin-left: -3px;
+  /*調整三角形大小*/
+}
+.feature-brief {
+  text-align: center;
+}
+.feature-brief i {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 36px;
+  /*i要改成display: block，margin跟padding才能推動*/
+}
+.feature-brief .title {
+  font-size: 18px;
+}
+.feature-brief p {
+  color: white;
+}
+.feature-brief.white {
+  color: white;
+}
+.feature-brief.white i {
+  color: #d6b161;
+}
+.feature-brief.white p {
+  color: white;
+}
+.feature-brief.black {
+  color: black;
+}
+.feature-brief.black i {
+  color: black;
+}
+.feature-brief.black p {
+  color: #7e7e7e;
+}
+.pricing .package {
+  padding: 0 15px;
+  text-align: center;
+}
+.pricing .package .box {
+  border: 1px solid #e8e8e8;
+  padding: 50px;
+}
+.pricing .package .name {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.pricing .package .value {
+  margin-bottom: 40px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 25px 0;
+}
+.pricing .package .price {
+  font-size: 42px;
+  font-weight: normal;
+  line-height: 1.75;
+}
+.pricing .package .decimal {
+  margin-left: -10px;
+  font-size: 16px;
+}
+.pricing .package .duration {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.pricing .package .features li {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+.pricing .package.recommended .box {
+  background-color: #222;
+  color: white;
+}
+.pricing .package.recommended .name {
+  color: #d6b161;
+}
+.pricing .package.recommended .value {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.pricing .package.recommended .features {
+  color: #7d7d7d;
+}
+.contact-info {
+  line-height: 30px;
+  color: #7e7e7e;
+  /*設定行高及顏色*/
+}
+.contact-info a {
+  text-decoration: none;
+  color: #7e7e7e;
+  /*設定連結下方無底線、顏色*/
+}
+.contact-form {
+  display: inline-block;
+  margin-top: 50px;
+}
+.contact-form .col-6,
+.contact-form .col-12 {
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+.contact-form label {
+  display: inline-block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #7e7e7e;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 6px 12px;
+  border: 1px solid #e5e5e5;
+  width: 100%;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border: 1px solid black;
+  transition: 0.3s linear all;
+}
+.contact-form input {
+  height: 40px;
+}
+.contact-form textarea {
+  height: 95px;
+}
+.contact-form button {
+  margin-top: 0;
+}
+/*content*/
+#content > div {
+  padding-top: 100px;
+  /*設定content下的每個div都與上方留白100px*/
+}
+#content > div.full-padding {
+  padding: 100px 0;
+}
+#content > div.gray-bg {
+  background: #f5f5f5;
+}
+#content > div:first-child {
+  padding-top: 0;
+  /*設定content下的第一個div不與上方留白100px*/
+}
+#content > hr {
+  margin: 0;
+  border-top: 1px solid #eee;
+  /*設定content下的hr橫線margin清掉、線條顏色粗細*/
+}
+#content h3.title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  /*使文字與左方圖片上方對齊*/
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 24x;
+  letter-spacing: 2px;
+}
+#content div.header {
+  /*因為上面已有更高權狀的padding，所以必須加上div增加權狀才有辦法顯示*/
+  padding: 200px 0;
+  background-image: url(http://massivemarkup.lab.themebucket.net//assets/img/parallax/1.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  /*設定背景圖*/
+}
+#content div.header .title {
+  float: left;
+  margin: 0;
+  /*title是h1，需要歸零margin*/
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+#content div.header #breadcrumbs {
+  float: right;
+  padding: 15px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+#content div.header #breadcrumbs li {
+  float: left;
+  color: white;
+  text-transform: uppercase;
+}
+#content div.header #breadcrumbs li:after {
+  content: "/";
+  margin: 0 5px;
+  /*設定li後面加斜線*/
+}
+#content div.header #breadcrumbs li:last-child::after {
+  content: "";
+  margin: 0;
+  /*設定最後一個li後面不要加斜線*/
+}
+#content div.header #breadcrumbs a {
+  color: #7e7e7e;
+  text-decoration: none;
+}
+#content div.header #breadcrumbs.transparent {
+  background: transparent;
+}
+#content .feature-item {
+  /*因為權重不夠改h3.title，所以放在權重100的#content裡面*/
+  position: relative;
+  margin-bottom: 80px;
+  padding-left: 80px;
+}
+#content .feature-item .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 36px;
+}
+#content .feature-item .title {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+#content .feature-item .desc {
+  line-height: 1.5;
+  color: #7e7e7e;
+}
+.slider img {
+  width: 100%;
+  height: auto;
+}
+.intro {
+  text-align: center;
+  margin-bottom: 100px;
+  /*設定文字置中，並與下方間格100px*/
+}
+.intro h2 {
+  margin: 0;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #333;
+  /*調整與下方留白10px、文字間距2px、文字全大寫、字體粗細及顏色*/
+}
+.intro hr {
+  margin: 0 auto;
+  border: none;
+  width: 60px;
+  height: 2px;
+  background-color: #595959;
+  /*因hr為空心，設定長寬後須再下背景色填滿，並設定左右置中，原本的框線無*/
+}
+.intro p {
+  color: #7e7e7e;
+}
+.intro.big h2 {
+  padding: 0;
+}
+.intro.big p {
+  margin: 0;
+  text-transform: uppercase;
+}
+/*.categories {
+	padding-top: 100px;
+	與上方間距100px
+}*/
+.category {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  /*成為設定位置的容器，並設定與下方間隔20px，因設定左右為10px*/
+}
+.category img {
+  width: 100%;
+  height: auto;
+  /*設定圖片寬度等於col，高度自動*/
+}
+.category .title {
+  position: absolute;
+  top: 35%;
+  right: 10%;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: right;
+  /*設定文字靠右上位置，大小及粗細，文字皆大寫，並置右*/
+}
+.category .title.dark {
+  color: #222;
+}
+.category .title.light {
+  color: #fff;
+}
+.products li {
+  float: left;
+}
+.product {
+  padding: 0 10px;
+}
+.product .info {
+  padding: 15px 0;
+  text-align: center;
+  /*設定info上下留白15px，文字置中*/
+}
+.product .title {
+  margin: 0;
+  /*清除整體預設*/
+}
+.product .title a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: normal;
+  font-style: 14px;
+  list-style-type: 1px;
+  color: #222;
+  /*調整文字全大寫、無底線、粗細、大小、間距、及顏色*/
+}
+.product .price {
+  font-style: 12px;
+  list-style-type: 1px;
+  line-height: 30px;
+  color: #7e7e7e;
+  /*調整文字大小、間距、顏色、及行高，以行高代替留白*/
+}
+.thumbnail {
+  position: relative;
+  /*作為設定位置及符合圖片大小的容器*/
+}
+.thumbnail img {
+  width: 100%;
+  height: auto;
+  /*圖片大小隨col*/
+}
+.thumbnail .cover {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  border: 20px solid rgba(0, 0, 0, 0.1);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+  /*設定hover時底色、邊框色、位置，並先顯示透明度為0*/
+  transition: 0.3s linear all;
+  /*轉場漸變，對以上all條件進行0.3秒的linear型態漸變*/
+}
+.thumbnail .cover:hover {
+  opacity: 1;
+  /*hover時透明度變為1顯示*/
+}
+.thumbnail .cover > a {
+  /*只有thumbnail底下的a才使用*/
+  position: relative;
+  top: 100px;
+  color: #333;
+  font-size: 32px;
+  text-decoration: none;
+  /*設定hover時放大鏡位置及顏色*/
+}
+.event {
+  padding: 150px 0;
+  background-image: url(http://massivemarkup.lab.themebucket.net//assets/img/decor/para1.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  /*bgscv使圖片大小隨容器改變，bgp使圖片置中顯示，bgaf使圖片隨網頁滾動像是櫥窗*/
+}
+.event .title {
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 70px;
+  /*調整文字大寫、行距1.5倍、顏色白色、字體粗度、及字體間距2px*/
+}
+.event .subtitle {
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 2px;
+  /*調整文字大寫、行距1.5倍、顏色白色、字體粗度、及字體間距2px*/
+  font-size: 24px;
+  /*調整與下方距離及文字大小*/
+}
+.featured {
+  padding-bottom: 100px;
+  /*與下方留白100px*/
+}
+.featured img {
+  width: 100%;
+  height: auto;
+  /*設定照片寬度同容器、高度自動調整*/
+}
+.featured .info {
+  margin-top: 70px;
+  text-align: center;
+  /*設定上方空70px、文字置中*/
+}
+.featured .info .title {
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: #d6b161;
+}
+.featured .info .name {
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.featured .info .price {
+  color: #d6b161;
+  font-size: 26px;
+  font-weight: 100;
+}
+.featured .info p {
+  margin: 0;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  /*調整文字p部分下方間距30px、上方30px，上方不使用margin是為防止margin崩塌*/
+}
+.featured .col-6 {
+  padding: 0 30px;
+  /*調整右方col-6文字部分左右留白30px*/
+}
+.outlets {
+  padding-bottom: 100px;
+  /*與下方推100px，如沒成功則是因為col-4沒有clearfix*/
+}
+.outlets h3 {
+  margin: 0;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
+  /*清除原本col-4的margin，再設定下方間距30px、字大寫、粗度正常*/
+}
+.outlets .map a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #d6b161;
+  /*設定連結下方無底線、字大寫、及顏色*/
+}
+/*footer*/
+#footer {
+  position: relative;
+  padding: 80px 0;
+  background: #f5f5f5;
+  /*把footer當作logo的定位點，並設定底色及左右留白*/
+}
+#footer .logo {
+  position: absolute;
+  top: -50px;
+  /*設定logo往上凸出50px的footer*/
+  left: 50%;
+  transform: translateX(-50%);
+  /*設定logo由左方空格50%後顯示，再以tramsform向左調回logo本身寬度的一半，便能左右置中*/
+  border: 5px solid #f5f5f5;
+  padding: 20px;
+  background: #fff;
+  /*設定logo邊框、留白、及底色*/
+}
+#footer .copyright {
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  /*調整文字靠左、大寫、拉寬間距2px*/
+  line-height: 20px;
+}
+#footer .copyright .subtitle {
+  font-size: 12px;
+  color: #323232;
+  /*調整副標題文字大小及顏色*/
+}
+#footer .social-media {
+  float: right;
+  /*設定靠右對齊*/
+}
+#footer .social-media li {
+  float: left;
+  /*設定靠左對齊*/
+}
+#footer .social-media a {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #222;
+  /*將a改成inline-block才能有自己的寬高，並設定左右間距10px、邊框*/
+  border-radius: 50%;
+  /*border-radius: 20px;*/
+  width: 40px;
+  height: 40px;
+  /*設定bdrs50%或20px(w的一半)，由50%開始彎曲，將border做成圓形圖案*/
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  color: #222;
+  /*設定左右置中，並用與高度相同的行高製作上下置中的效果，並調整無底線及顏色*/
+}
+#footer.dark {
+  padding: 0;
+  background: #222;
+}
+#footer.dark .info {
+  padding: 80px 0;
+}
+#footer.dark .info .title {
+  margin: 0;
+  margin-bottom: 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+#footer.dark .info ul.common-list li {
+  border-bottom: 1px solid #333;
+}
+#footer.dark .info ul.common-list li a {
+  display: block;
+  /*這樣a可以點的區域才會大*/
+  line-height: 45px;
+  color: #a2a2a2;
+  text-decoration: none;
+  text-transform: capitalize;
+  /*字首大寫*/
+}
+#footer.dark .info ul.common-list li a::before {
+  content: ">";
+  margin-right: 10px;
+}
+#footer.dark .info .thumbnails li {
+  float: left;
+}
+#footer.dark .info .thumbnails li a {
+  display: inline-block;
+  /*display:block是包不住margin的，所以必須改成inline-block*/
+  margin: 0 10px 10px 0;
+}
+#footer.dark .bottom {
+  padding: 35px 0;
+  background: #1b1b1b;
+  color: #6f7273;
+}
+#footer.dark .bottom .copyright {
+  margin-top: 10px;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  /*字首大寫*/
+}
+#footer.dark .bottom .copyright a {
+  color: white;
+  text-decoration: none;
+}
+#footer.dark .social-media {
+  /*不寫在bottom底下，以免權重太高*/
+}
+#footer.dark .social-media a {
+  margin: 0;
+  margin-left: 15px;
+  /*先把原本的margin清掉，再調整*/
+  border-color: #6f7273;
+  color: #6f7273;
+}
+#footer.dark .social-media a:hover {
+  color: white;
+  background-color: #6f7273;
+  transition: all 0.3s;
+}
+#footer.dark.contact-page .info {
+  padding: 40px;
+}
+#footer.dark.contact-page .social-media {
+  float: none;
+  margin-top: 50px;
+  text-align: center;
+}
+#footer.dark.contact-page .social-media a {
+  margin: 5px;
+  border: 1px solid white;
+  color: white;
+}
+#footer.dark.contact-page .social-media a:hover {
+  color: #222;
+  background-color: white;
+  transition: all 0.3s;
+}
+#footer.dark.contact-page .bottom {
+  padding: 50px 0;
+  border-top: 1px dashed rgba(255, 255, 255, 0.2);
+  background: #222;
+}
+#footer.dark.contact-page .bottom .copyright {
+  width: 100%;
+  margin: 0 auto;
+  color: #7e7e7e;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+#footer.dark.contact-page img {
+  display: block;
+  margin: auto;
+}
+#go-top {
+  position: fixed;
+  right: 20px;
+  bottom: 35px;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  /*調整posfixed隨畫面移動，並設定右下角位置、長寬、背景顏色、置中、去除底線、及文字顏色*/
+}

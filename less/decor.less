@@ -1,0 +1,84 @@
+@import "basic.css";
+
+.decor {
+  #header a:hover {
+    color: var(--branding-color);
+  }
+  #fullscreen-banner-slider {
+    position: relative;
+    img {
+      width: 100%;
+      height: 100vh;
+      // object-fit:cover;
+    }
+    .slider-title {
+      h1 {
+        margin-bottom: 0;
+        letter-spacing: 5px;
+        font-size: 100px;
+        font-weight: 100;
+      }
+      h3 {
+        letter-spacing: 20px;
+        font-size: 24px;
+      }
+    }
+    .slider-title-1 {
+      position: absolute;
+      top: 50%;
+      right: 10%;
+      width: 100%;
+      transform: translate(0%, -50%);
+      text-align: right;
+    }
+    .slider-title-2 {
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      width: 100%;
+      transform: translate(0%, -50%);
+      text-align-last: left;
+    }
+    .slider-title-3 {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  }
+  .featured {
+    .post-desk {
+      h4 a {
+        color: #222;
+        text-decoration: none;
+        &:hover {
+          color: var(--branding-color);
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    #fullscreen-banner-slider {
+      .slider-title {
+        h1 {
+          margin-bottom: 0;
+          letter-spacing: 5px;
+          font-size: 25px;
+          font-weight: 100;
+        }
+        h3 {
+          font-size: 18px;
+        }
+      }
+    }
+    .heading-title {
+      margin-bottom: 50px;
+    }
+    .featured {
+      margin-bottom: 100px;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.about #content {
+  /*因為權重不夠高，改h3 title時會改不過，所以另外再加上#content增加權重*/
+}
+.about #content .feature {
+  padding: 100px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  /*bgbmm混和背景圖和背景半透明顏色*/
+  background-image: url(http://massivemarkup.lab.themebucket.net//assets/img/parallax/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*bgzcover讓圖片寬度完全覆蓋容器、bfaf讓圖片跟著網頁滾動*/
+}
+.about #content .team-member {
+  padding: 100px 0;
+}
+.about #content .member .name {
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.about #content .member .title {
+  color: #a5a5a5;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.about #content .cover h3 {
+  width: 250px;
+  margin: 40px auto;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+.about #content .cover p {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.about #content .cover .social-media {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+.about #content .cover .social-media ul {
+  display: inline-block;
+  /*ul設置inline-block，social-media才有辦法置中對齊*/
+}
+.about #content .cover .social-media li {
+  float: left;
+  margin: 0 10px;
+}
+.about #content .cover .social-media a {
+  color: black;
+  text-decoration: none;
+}
+.about #content .gray-bg {
+  padding: 100px 0;
+  text-align: center;
+}
+.about #content .gray-bg .count {
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+.about #content .gray-bg h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #323232;
+  letter-spacing: 1px;
+}
+.about #content .clients {
+  padding: 100px 0;
+}
+.about .summary i {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 36px;
+  /*i要改成display: block，margin跟padding才能推動*/
+}

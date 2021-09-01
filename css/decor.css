@@ -1,0 +1,69 @@
+@import "basic.css";
+.decor #header a:hover {
+  color: var(--branding-color);
+}
+.decor #fullscreen-banner-slider {
+  position: relative;
+}
+.decor #fullscreen-banner-slider img {
+  width: 100%;
+  height: 100vh;
+}
+.decor #fullscreen-banner-slider .slider-title h1 {
+  margin-bottom: 0;
+  letter-spacing: 5px;
+  font-size: 100px;
+  font-weight: 100;
+}
+.decor #fullscreen-banner-slider .slider-title h3 {
+  letter-spacing: 20px;
+  font-size: 24px;
+}
+.decor #fullscreen-banner-slider .slider-title-1 {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  width: 100%;
+  transform: translate(0%, -50%);
+  text-align: right;
+}
+.decor #fullscreen-banner-slider .slider-title-2 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 100%;
+  transform: translate(0%, -50%);
+  text-align-last: left;
+}
+.decor #fullscreen-banner-slider .slider-title-3 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.decor .featured .post-desk h4 a {
+  color: #222;
+  text-decoration: none;
+}
+.decor .featured .post-desk h4 a:hover {
+  color: var(--branding-color);
+}
+@media screen and (max-width: 768px) {
+  .decor #fullscreen-banner-slider .slider-title h1 {
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-weight: 100;
+  }
+  .decor #fullscreen-banner-slider .slider-title h3 {
+    font-size: 18px;
+  }
+  .decor .heading-title {
+    margin-bottom: 50px;
+  }
+  .decor .featured {
+    margin-bottom: 100px;
+  }
+}
